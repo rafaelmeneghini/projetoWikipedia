@@ -3,14 +3,14 @@
 **Título:** Recriando Wikipedia, com um layout melhor :)
 
 ## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+Este desafio consiste em um treinamento com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
 
 ## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+Através do repositório disponiilizado pelo desenvolvedor Diogo Mainardes, a estrtura básica já estava pré-montada contendo um layout simples, com um pouco de CSS.
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+As orientações para execução deste projeto foram apresentadas no curso, sendo que baseada em uma página do Wikipedia, deveria está ser recriada, aplicando os conceitos aprendidos.
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+Bastante enfâse foi dada quanto a responsividade do site e da assecibilidade.
 
 ## Links úteis
 - [Download do NVDA](https://www.nvaccess.org/download/)
