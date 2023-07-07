@@ -5,6 +5,9 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+a:hover {
+    background-color: lightblue;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -25,17 +28,67 @@ a { color:blue; text-decoration: none;}
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    margin: 0px 10px 0px 20px;
+    font-size: small;
 }
 .anchors {
-    border-left: solid 1px #cdcdcd;
+    position: sticky;
+    top: 0;
     padding-left: 15px;
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
-figure {
-    text-align: center;
+.container {
+    border-left: solid 1px #cdcdcd;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #emphasis {
     color: red;
+}
+#section {
+    padding: 8px;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    float: right;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 270px;
+    margin: 0px 10px 10px 0;
+}
+#table {
+    max-width: 270px;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+div a img {
+    width: 30px;
+}
+#social-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 24px;
+}
+#social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+#social-links a:hover {
+    background: rgba(0, 0, 0, 0.1);
 }

@@ -9,15 +9,17 @@
 </head>
 <body>
 
-    <div>   
+    <header>   
         <div class="logo">
             <img src="assets/images/logoWikipediaPlus.jpg" width="150" alt="Logo do site Wikipedia Plus."/>
+            <img id=""nome src="assets/images/logoMarca.jpg" width="500" alt="Nome do site Wikipedia Plus."/>
         </div>
-    </div>
+
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
+    <main class="content">
         <div class="sidebar">
             <h2>Planejamento Estratégico</h2>
             <ul>
@@ -26,7 +28,7 @@
         </div>
 
         <div class="main">
-            <h1>Análise SWOT</h1>
+            <h1  id="section1">Análise SWOT</h1>
                 <p><strong>Análise SWOT</strong> ou <strong>Análise FOFA</strong> (Forças, Oportunidades, Fraquezas e Ameaças em português) 
                 é uma técnica de planejamento estratégico utilizada para auxiliar pessoas ou organizações
                 a identificar forças, fraquezas, oportunidades, e ameaças relacionadas à competição em negócios 
@@ -46,7 +48,7 @@
                 <p>O termo SWOT é uma sigla oriunda do idioma inglês, e é um acrônimo de Forças (Strengths), Fraquezas (Weaknesses), 
                 Oportunidades (Opportunities) e Ameaças (Threats).</p>
 
-            <h2>Objetivos e vantagens da análise SWOT</h2>
+            <h2 id="section2">Objetivos e vantagens da análise SWOT</h2>
                 <h3>Objetivos</h3>
                     <ul>
                         <li>Efetuar uma síntese das análises internas e externas;</li>
@@ -60,7 +62,13 @@
                         <li>Realizar previsão de vendas em articulação com as condições de mercado e capacidades da empresa no geral.</li>
                     </ul>
 
-            <h2>Aplicação prática</h2>
+            <h2 id="section3">Aplicação prática</h2>
+
+            <figure>
+                <img id="table" src="assets/images/SWOT.png" alt="Tabela demosntrando SWOT"/>
+                <figcaption>Tipos de estratégias para cada combinação de fatores da SWOT</figcaption>
+            </figure>
+
                 <p>Estas análises de cenário se dividem em:</p>
                 <p><b>Ambiente interno</b> (Forças e Fraquezas) – Integração dos Processos, Padronização dos Processos, Eliminação de redundância, 
                 Foco na atividade principal</p>
@@ -80,7 +88,7 @@
                 <h3 id="emphasis">Ambiente Externo</h3>
                     <p><strong>Opportunities</strong> – Aspectos positivos da envolvente com potencial de fazer crescer a vantagem competitiva da empresa.</p>
                     <p><strong>Threats</strong> – Aspectos negativos da envolvente com potencial de comprometer a vantagem competitiva da empresa.</p>
-                
+                    
                 <p>O ambiente interno pode ser controlado pelos dirigentes da empresa que não é muito difícil de ser entendido, uma vez que ele
                 é resultado das estratégias de atuação definidas pelos próprios membros da organização. Desta forma, durante a análise, 
                 quando for percebido um ponto forte, ele deve ser ressaltado ao máximo; e quando for percebido um ponto fraco, a 
@@ -108,7 +116,7 @@
                 <p>Essa análise é uma ótima ferramenta que pode ampliar o conhecimento sobre sua empresa e tudo que gira em torno dela, para 
                 assim, entender como melhorar e quais investimentos no crescimento podem ser feitos.</p>
 
-            <h2>Limitações</h2>
+            <h2 id="section4">Limitações</h2>
                 <p>A análise SWOT destina-se como ponto de partida para discussões e não pode, por si só, mostrar a gestores como alcançar uma
                 vantagem competitiva. Como a análise SWOT é uma espécie de "imagem instantânea" da organização em um momento particular no 
                 tempo, a análise pode obscurecer o fato de que ambos os ambientes, interno e externo, mudam rapidamente.</p>
@@ -125,22 +133,57 @@
                 <p>Michael Porter desenvolveu a Estrutura das Cinco Forças como reação à análise SWOT, a qual considerou deficiente no rigor 
                 e específica para determinados casos (ad hoc).</p>
 
+            <h2 id="section5">Referências</h2>
+                <ol>
+                    <li>Wikipedia Anánile SWOT. Consultado em 04 de julho de 2023</li>
+                    <li>SWOT Analysis: Discover New Opportunities, Manage and Eliminate Threats. Consultado em 12 de novembro de 2019</li>
+                    <li>Dess, Gregory (2018). Strategic Management. Estados Unidos: McGraw-Hill. 73 páginas. ISBN 9781259927621</li>
+                    <li>CHIAVENATO, Idalberto (2003). Introdução à teoria geral da administração. Rio de Janeiro: Elsevier</li>
+                    <li> Menon (1999). Antecedents and Consequences of Marketing Strategy Making 2 ed. American Marketing Association. Journal of Marketing. 63: 18-40. JSTOR 1251943. doi:10.2307/1251943</li>
+                    <li>Hill & Westbrook (1997). «SWOT Analysis: It's Time for a Product Recall» 1 ed. Long Range Planning. 30: 46-52. doi:10.1016/S0024-6301(96)00095-7</li>
+                    <li>Koch, Adam (2000). «SWOT does not need to be recalled: It needs to be enhanced». Swineburne University of Technology</li>
+                    <li>Chermack, Thomas J. (2007). «The Use of and Misuse of SWOT analysis and implications for HRD professionals» 4 ed. Human Resource Development International. 10: 383-399</li>
+                    <li>Michael Porter, Nicholas Argyres and Anita M. McGahan, "An Interview with Michael Porter", The Academy of Management Executive 16:2:44 at JSTOR</li>
+                    </li>
+                </ol>
 
 
 
 
         </div>
+        <nav class="container">
+            <div class="anchors">
+                    <h2>Neste Artigo</h2>
+                    <ul>
+                        <li id="section"><a href="#section1">Início</a></li>
+                        <li id="section"><a href="#section2">Objetivos e vantagens da análise SWOT</a></li>
+                        <li id="section"><a href="#section3">Aplicação prática</a></li>
+                        <li id="section"><a href="#section4">Limitações</a></li>
+                        <li id="section"><a href="#section5">Referências</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </main>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer">
-        
-    </div>
+    <footer class="footer">
+        <p>Página de conteúdo replicado do site original <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Wikipedia</a>,
+             tendo como endereço da página copiada o tema <a href="https://pt.wikipedia.org/wiki/An%C3%A1lise_SWOT">SWOT</a>. 
+             Trata-se de um projeto do curso <strong>Formação HTML Web Developer</strong> da <a href="https://web.dio.me/home">Dio.me</a> para 
+             construção de página utilizando HTML e CSS.</p>
+             <p>Desenvolvedor Rafael Meneghini Lopes. Possível acessar o rojeto através do <a href="https://github.com/rafaelmeneghini/projetoWikipedia.git">GitHub</a>. 
+            Abaixo outros links de contato do desenvolver.</p>
+            <div id="social-links">
+                <a href="https://github.com/rafaelmeneghini" target="blank">
+                    <img src="assets/images/GitHub.png" alt="logo GitHub"></a>
+                <a href="https://www.instagram.com/meneghinirafael/" target="blank">
+                    <img src="assets/images/Instagram.png" alt="logo Instagram"></a>
+                <a href="https://www.facebook.com/RafaelMeneghini" target="blank">
+                    <img src="assets/images/Facebook.png" alt="logo Facebook"></a>
+                <a href="https://www.linkedin.com/in/rafaelmeneghinilopes/" target="blank">
+                    <img src="assets/images/LinkedIn.png" alt="logo Linkedin"></a>
+                <a href="https://wa.me/5511976924918" target="blank">
+                    <img src="assets/images/Whatsapp.png" alt="logo Whatsapp"></a>
+            </div>
+    </footer>
 </body>
 </html>
